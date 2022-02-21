@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+}
+.oszlop{
+    float: left;
+    padding: 0 10px;
+}
+.sor{
+    margin: 0 -5px;
+    }
+.sor:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.kartya {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    padding: 16px;
+    text-align: left;
+    background-color: #DCD9D3;
+    margin-top: 50px;
+    border-radius: 10px;
+    }
+.puzzle{
+    max-width: 100%;
+    object-fit: cover;
+}
+.felhkeres,
+.urlap{
+    overflow-x:auto; 
+    }
+.urlap{
+    width: 100%;
+    }
+.felhkeres table,
+.urlap table{
+    width: 100%;
+    }
+
+h1,
+h2,
+h3{
+    text-align: center;
+    }
+.tartalom table{
+    width: 100%;
+    text-align: left;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.ar{
+    text-align: center;
+    color:#cd5c5c;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.vezerlok{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+input[type=number],
+input[type=text],
+input[type=tel],
+input[type=email],
+input[type=password] {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+  }
+
+input[type=button],
+input[type=submit]{
+    border:none;
+    background-color: #333;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+input[type=button]{
+    float:right;
+}
+input[type=submit]{
+    float:left;
+}
